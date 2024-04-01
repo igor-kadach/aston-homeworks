@@ -59,7 +59,7 @@ public class HomeWork4 {
     }
 
     public boolean isNumberNegative(int a) {
-        if (a >= 0) {
+        if (a < 0) {
             return true;
         } else {
             return false;
