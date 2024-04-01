@@ -33,8 +33,8 @@ public class HomeWork4 {
     }
 
     public void compareNumbers() {
-        int a = 5;
-        int b = 99;
+        int a = 99;
+        int b = 9;
         if (a >= b) {
             System.out.println("Task №4:\na >= b\n");
         } else {
@@ -43,7 +43,7 @@ public class HomeWork4 {
     }
 
     public boolean checkBoundaries(int a, int b) {
-        if (a + b > 10 & a + b <= 20) {
+        if (a + b >= 10 && a + b <= 20) {
             return true;
         } else {
             return false;
