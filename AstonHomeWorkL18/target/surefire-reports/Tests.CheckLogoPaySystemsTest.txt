@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Tests.CheckLogoPaySystemsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.476 s <<< FAILURE! - in Tests.CheckLogoPaySystemsTest
+Tests.CheckLogoPaySystemsTest.checkLogoPaySystems  Time elapsed: 5.466 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[Visa, Verified By Visa, MasterCard, MasterCard Secure Code, Белкарт, МИР]> but was:<[Visa, Verified By Visa, MasterCard, MasterCard Secure Code, Белкарт]>
+	at Tests.CheckLogoPaySystemsTest.checkLogoPaySystems(CheckLogoPaySystemsTest.java:40)
+

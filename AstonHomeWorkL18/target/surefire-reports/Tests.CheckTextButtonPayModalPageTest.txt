@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Tests.CheckTextButtonPayModalPageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.767 s <<< FAILURE! - in Tests.CheckTextButtonPayModalPageTest
+Tests.CheckTextButtonPayModalPageTest.checkTextButtonPayModalPage  Time elapsed: 2.765 s  <<< ERROR!
+java.lang.NullPointerException
+	at Tests.CheckTextButtonPayModalPageTest.setup(CheckTextButtonPayModalPageTest.java:22)
+

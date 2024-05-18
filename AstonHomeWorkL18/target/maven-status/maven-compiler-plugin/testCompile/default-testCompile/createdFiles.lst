@@ -1,0 +1,14 @@
+Tests\CheckIsPaymentSystemIconDisplayedTest.class
+Tests\CheckPhoneNumberOnModalPageTest.class
+PageOdjects\ModalPayWindowPageObject.class
+Tests\CheckButtonContinueTest.class
+PageOdjects\MainPageObject.class
+Tests\CheckListOfServicesTest.class
+Tests\CheckFieldNamesCardPayTest.class
+Tests\CheckTopUpBlockNameTest.class
+Utils\MakeScreenshot.class
+Tests\CheckLogoPaySystemsTest.class
+Utils\GetWebDriver.class
+Tests\CheckPayForCommunicationServiceTest.class
+Tests\CheckTextButtonPayModalPageTest.class
+Tests\CheckLinkMoreDetailsTest.class
