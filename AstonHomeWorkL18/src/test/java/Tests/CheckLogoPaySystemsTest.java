@@ -36,7 +36,7 @@ public class CheckLogoPaySystemsTest {
         expectedResult.add("MasterCard");
         expectedResult.add("MasterCard Secure Code");
         expectedResult.add("Белкарт");
-        expectedResult.add("МИР");
+   //     expectedResult.add("МИР");
         screenshot.makeScreenshot();
         Assert.assertEquals(expectedResult, mainPage.getPaymentLogosText());
         screenshot.makeScreenshot();

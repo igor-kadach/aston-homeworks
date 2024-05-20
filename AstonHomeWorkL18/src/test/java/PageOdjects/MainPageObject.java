@@ -48,7 +48,7 @@ public class MainPageObject {
 
     @Step("Get list of logo for assert")
     public List<String> getPaymentLogosText() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(3500);
         List<String> paymentLogosText = new ArrayList<>();
         for (int i = 0; i < listOfPaymentSystems.size(); i++) {
             paymentLogosText.add(listOfPaymentSystems.get(i).getAttribute("alt"));

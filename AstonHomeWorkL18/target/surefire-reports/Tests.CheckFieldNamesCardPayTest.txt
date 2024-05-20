@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Tests.CheckFieldNamesCardPayTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.933 s - in Tests.CheckFieldNamesCardPayTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.453 s <<< FAILURE! - in Tests.CheckFieldNamesCardPayTest
+Tests.CheckFieldNamesCardPayTest.checkFieldNamesCardPay  Time elapsed: 9.441 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[Номер карты, Срок действия, CVC, Имя держателя (как на карте)]> but was:<[]>
+	at Tests.CheckFieldNamesCardPayTest.checkFieldNamesCardPay(CheckFieldNamesCardPayTest.java:43)
+

@@ -19,7 +19,8 @@ public class CheckTextButtonPayModalPageTest {
     public void setup() {
         driver = new GetWebDriver();
         mainPage = new MainPageObject(driver.getWebDriver());
-        screenshot.makeScreenshot();
+        modalPage = new ModalPayWindowPageObject(driver.getWebDriver());
+        screenshot = new MakeScreenshot(driver.getWebDriver());
         mainPage.acceptCookie();
     }
 
