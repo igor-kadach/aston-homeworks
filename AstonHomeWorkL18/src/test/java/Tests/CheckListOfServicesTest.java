@@ -3,7 +3,8 @@ package Tests;
 import PageOdjects.MainPageObject;
 import Utils.GetWebDriver;
 import Utils.MakeScreenshot;
-import io.qameta.allure.*;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import org.junit.*;
 
 @Epic("OnlinePaymentBlock")
